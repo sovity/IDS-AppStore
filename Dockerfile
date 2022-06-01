@@ -16,7 +16,7 @@
 #
 
 # Dependencies
-FROM maven:3-jdk-11 AS maven
+FROM maven:3-jdk-14 AS maven
 WORKDIR /app
 COPY pom.xml .
 RUN mvn -e -B dependency:resolve
