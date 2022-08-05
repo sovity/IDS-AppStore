@@ -31,7 +31,7 @@ RUN mvn -e -B clean package -DskipTests -Dmaven.javadoc.skip=true
 
 # Copy the jar and build image
 #FROM gcr.io/distroless/java-debian10:11
-FROM exoplatform/jdk:openjdk-11-ubuntu-2004
+FROM exoplatform/jdk:openjdk-11-ubuntu-2204
 COPY --from=maven /app/target/*.jar /app/app.jar
 WORKDIR /app
 RUN mkdir -p /data/search
