@@ -73,7 +73,7 @@
 		<jackson-databind.version>2.13.2.2</jackson-databind.version>
 		<postgres.version>42.2.23</postgres.version>
 		<springdoc-ui.version>1.5.10</springdoc-ui.version>
-		<springdoc-security.version>1.5.10</springdoc-security.version>
+		<springdoc-security.version>1.6.12</springdoc-security.version>
 		<springdoc-hateoas.version>1.5.10</springdoc-hateoas.version>
 		<jsonld-java.version>0.13.3</jsonld-java.version>
 		<equalsverifier.version>3.7.1</equalsverifier.version>
