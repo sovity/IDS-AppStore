@@ -68,7 +68,7 @@
 		<springframework.version>5.3.18</springframework.version>
 		<swagger-annotations.version>1.6.2</swagger-annotations.version>
 		<okhttp.version>4.9.1</okhttp.version>
-		<modelmapper.version>2.4.4</modelmapper.version>
+		<modelmapper.version>3.1.1</modelmapper.version>
 		<jackson.version>2.13.2</jackson.version>
 		<jackson-databind.version>2.13.2.2</jackson-databind.version>
 		<postgres.version>42.2.23</postgres.version>
